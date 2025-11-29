@@ -29,6 +29,9 @@
             cp hello-flake $out/bin/
           '';
         };
+
+        # Add Wayland utilities
+        Weston = pkgs.weston;
       };
     };
   };
