@@ -10,8 +10,6 @@
           system = "x86_64-linux";
         };
       in {
-        # Existing hello package
-        hello = pkgs.legacyPackages.x86_64-linux.hello;
 
         # Custom hello.c package
         HelloFlake = pkgs.stdenv.mkDerivation {
