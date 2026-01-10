@@ -1,7 +1,7 @@
 {
   description = "A simple flake to test Nix installation";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/25.11";
 
   outputs = { self, nixpkgs }: {
     packages = {
