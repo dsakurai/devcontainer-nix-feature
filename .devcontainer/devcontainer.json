@@ -15,5 +15,19 @@
       "settings": {},
       "extensions": []
     }
+  },
+  
+  "mounts": [
+    // Lines below are needed to run some GUI apps.
+    // "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind",
+    // "source=/mnt/wslg,target=/mnt/wslg,type=bind"
+  ],
+
+  "containerEnv": {
+    // Lines below are needed to run some GUI apps.
+    // "DISPLAY": "${localEnv:DISPLAY}",
+    // "WAYLAND_DISPLAY": "${localEnv:WAYLAND_DISPLAY}",
+    // "XDG_RUNTIME_DIR": "${localEnv:XDG_RUNTIME_DIR}"
   }
+
 }

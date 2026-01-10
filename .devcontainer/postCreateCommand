@@ -14,3 +14,7 @@ nix profile add ./flake-hello#HelloFlake
 
 # To run a GUI app:
 nix profile add ./flake-hello#Weston
+
+echo "If you use Wayland, you might use this command to pass necessary environment variables: 'nix develop -i --keep DISPLAY --keep WAYLAND_DISPLAY --keep XDG_RUNTIME_DIR'"
+
+echo "Try running '$ weston'."
